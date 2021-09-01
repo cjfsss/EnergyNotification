@@ -1,0 +1,19 @@
+package hos.notification.view;
+
+
+import hos.core.AppCompatApplication;
+
+/**
+ * <p>Title: BigRemote </p>
+ * <p>Description:  </p>
+ * <p>Company: www.mapuni.com </p>
+ *
+ * @author : 蔡俊峰
+ * @version : 1.0
+ * @date : 2021/6/12 11:55
+ */
+public class CustomRemote extends AbRemoteViews {
+    public CustomRemote(int layoutId) {
+        super(AppCompatApplication.getAppCompatApplication().getPackageName(), layoutId);
+    }
+}
